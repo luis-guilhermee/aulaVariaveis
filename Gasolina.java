@@ -18,7 +18,7 @@ public class Gasolina {
 		System.out.println("Digite o consumo médio de gasolina por litro: ");
 		consumo = ler.nextDouble();
 		
-		litros = consumo * distancia;
+		litros = distancia / consumo;
 		valor = litros * preco;
 		
 		System.out.println("A quantidade de combustível total, em litros, gasto na viagem é: " + litros + " litros");
